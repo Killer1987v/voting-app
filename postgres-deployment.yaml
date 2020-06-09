@@ -13,7 +13,7 @@ spec:
     metadata:
       name: postgres-pod
       labels:
-        name: postgres
+        name: postgres-pod
         app: myvotingapp
     spec:
       containers:
