@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ddce0fe-a6e1-420b-a769-07f636766d7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/postgres-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result-app-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/voting-app-service.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/postgres-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/postgres-deployment.yaml" afterDir="false" />
     </list>
@@ -45,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/postgres-service.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -90,15 +86,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/postgres-deployment.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+            <state relative-caret-position="435">
+              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
               <folding>
                 <element signature="e#445#498#0" expanded="true" />
                 <element signature="e#511#568#0" expanded="true" />
-                <element signature="e#581#642#0" expanded="true" />
+                <element signature="e#587#646#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,11 +112,11 @@
         <option value="$PROJECT_DIR$/result-app-deployment.yaml" />
         <option value="$PROJECT_DIR$/worker-app-deployment.yaml" />
         <option value="$PROJECT_DIR$/redis-deployment.yaml" />
-        <option value="$PROJECT_DIR$/postgres-deployment.yaml" />
         <option value="$PROJECT_DIR$/voting-app-service.yaml" />
         <option value="$PROJECT_DIR$/result-app-service.yaml" />
         <option value="$PROJECT_DIR$/redis-service.yaml" />
         <option value="$PROJECT_DIR$/postgres-service.yaml" />
+        <option value="$PROJECT_DIR$/postgres-deployment.yaml" />
       </list>
     </option>
   </component>
@@ -253,7 +249,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591693994485</updated>
-      <workItem from="1591693999893" duration="1776000" />
+      <workItem from="1591693999893" duration="2225000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1591694537010</created>
@@ -269,11 +265,25 @@
       <option name="project" value="LOCAL" />
       <updated>1591695195420</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Final commit">
+      <created>1591696978376</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591696978377</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Corrected Postgres deployment yaml">
+      <created>1591697280342</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591697280342</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1776000" />
+    <option name="totallyTimeSpent" value="2225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -317,7 +327,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="All deployment files" />
-    <option name="LAST_COMMIT_MESSAGE" value="All deployment files" />
+    <MESSAGE value="Final commit" />
+    <MESSAGE value="Corrected Postgres deployment yaml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrected Postgres deployment yaml" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/result-app-deployment.yaml">
@@ -338,18 +350,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/postgres-deployment.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding>
-            <element signature="e#445#498#0" expanded="true" />
-            <element signature="e#511#568#0" expanded="true" />
-            <element signature="e#581#642#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -385,6 +385,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postgres-deployment.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <folding>
+            <element signature="e#445#498#0" expanded="true" />
+            <element signature="e#511#568#0" expanded="true" />
+            <element signature="e#587#646#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
